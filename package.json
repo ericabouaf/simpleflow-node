@@ -1,0 +1,32 @@
+{
+    "name": "simpleflow",
+    "version": "0.0.1",
+    "description": "Simpleflow on NodeJS",
+    "author": "Eric Abouaf <eric.abouaf@gmail.com>",
+    "bugs": { "web" : "http://github.com/neyric/simpleflow-node/issues" },
+    "os": ["darwin", "linux"],
+    "contributors": [
+        "Eric Abouaf <eric.abouaf@gmail.com> (http://neyric.com)"
+    ],
+    "engines": {
+        "node" : ">=0.2.0"
+    },
+    "directories": {
+        "lib" : "lib"
+    },
+    "main": "./lib/simpleflow",
+    "bin" : { "simpleflow" : "./cli.js" },
+    "dependencies": {
+				"ejs": ">=0.2.0",
+				"xml2js": ">=0.1.5"
+    },
+    "licenses":[
+        {
+            "type" : "BSD"
+        }
+    ],
+    "repository": {
+        "type":"git",
+        "url":"http://github.com/neyric/simpleflow-node.git"
+    }
+}
